@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'CS-HUD',
   tagline: 'Counter Strike HUD for broadcasters',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://hud.izetmulalic.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
