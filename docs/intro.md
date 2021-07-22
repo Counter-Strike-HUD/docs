@@ -2,34 +2,14 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Native HLDS or ReHLDS server doesnt have any stream method unlike CSGO to send game events to specific endpoint (there is remote logging, but information sended is sufficial).
 
-## Getting Started
 
-Get started by **creating a new site**.
+So to make this project work we had to recreate that feature in AmxModX. 
 
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
 
-## Generate a new site
+For connections we use TCP sockets, and full diagram of connections is like below.
 
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+![graph1](/img/tutorial/graph1.png)
