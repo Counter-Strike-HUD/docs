@@ -10,7 +10,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'Counter-Strike-HUD', // Usually your GitHub org/user name.
   projectName: 'cs-hud-observer', // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -45,7 +45,7 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.io/cs-hud',
             },
           ],
         },
