@@ -7,7 +7,7 @@ module.exports = {
   tagline: 'Counter Strike HUD for broadcasters',
   url: 'https://hud.izetmulalic.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Counter-Strike-HUD', // Usually your GitHub org/user name.
