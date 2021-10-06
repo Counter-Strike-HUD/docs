@@ -1,5 +1,6 @@
 ---
-sidebar_position: 3
+id: game-socket
+title: Game socket
 ---
 
 # Game socket 
